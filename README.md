@@ -1,22 +1,24 @@
-# Cisco Switch Backup Tool v1
+# Cisco Switch Backup Tool v1.2
 
-Herramienta gráfica profesional desarrollada en Python para la automatización de respaldos de configuración (`running-config`) en dispositivos Cisco Catalyst mediante el protocolo SSH.
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🚀 Características
-* **Compatibilidad:** Diseñado para series Catalyst 2960, 3560, 9200 y 9300.
-* **Pre-checks Inteligentes:** Realiza validaciones de IP, pruebas de puerto TCP 22 y ping ICMP antes de intentar la conexión para optimizar el tiempo.
-* **Interfaz Moderna:** GUI intuitiva desarrollada con Tkinter con soporte para temas oscuros.
-* **Gestión Masiva:** Permite agregar dispositivos manualmente o importar una lista desde archivos `.txt`.
-* **Seguridad:** Manejo seguro de credenciales SSH y contraseñas de modo privilegiado (Enable).
-* **Monitor SNMP:** Incluye una interfaz base para monitoreo de red (requiere módulo adicional).
+Esta herramienta automatiza la recolección de archivos de configuración (`running-config`) de switches Cisco Catalyst, proporcionando una interfaz gráfica intuitiva y robusta para administradores de red.
 
-## 📋 Requisitos
-* Python 3.10 o superior.
-* Librería **Netmiko** para la gestión de conexiones SSH.
-* Librería **tkinter** para el GUI.
+## 🚀 Características Principales
+* **Pre-validación Inteligente:** Antes de conectar, el script verifica la validez de la IP, realiza un ping ICMP y comprueba la disponibilidad del puerto TCP 22 (SSH) para evitar esperas innecesarias por timeouts.
+* **Interfaz Multitarea:** Implementa hilos (`threading`) para asegurar que la interfaz gráfica no se bloquee durante el proceso de respaldo masivo.
+* **Gestión de Lotes:** Soporte para agregar dispositivos manualmente o mediante la importación de archivos de texto con listas de IPs.
+* **Log en Tiempo Real:** Consola integrada con códigos de colores para monitorear el estado de cada conexión y posibles errores de autenticación o red.
+* **Nomenclatura Automática:** Los archivos se guardan automáticamente con el formato `Hostname_IP_Fecha_Hora.txt`.
 
-## 🔧 Instalación
-1. Clona el repositorio:
+## 🛠️ Requisitos Técnicos
+* **Python 3.10+**
+* **Bibliotecas:** * `netmiko` (Manejo de SSH)
+  * `tkinter` (Interfaz gráfica)
+
+## 🔧 Instalación y Configuración
+
+1. Clona este repositorio:
    ```bash
-   git clone [https://github.com/Redes2026/cisco-switch-backup-tool.git](https://github.com/TU_USUARIO/cisco-switch-backup-tool.git)
-
+   git clone [https://github.com/Redes2026/Cisco-Backup-Tool.git](https://github.com/Redes2026/Cisco-Backup-Tool.git)
