@@ -1,19 +1,23 @@
-# Cisco Switch Backup Tool v1.1
+# Cisco Backup Tool | Automated Network Configuration Backup with Python
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Esta herramienta automatiza la recolección de archivos de configuración (`running-config`) de switches Cisco Catalyst, proporcionando una interfaz gráfica intuitiva y robusta para administradores de red.
+Herramienta de automatización para respaldo de configuraciones en dispositivos Cisco IOS/IOS-XE usando Python y SSH, diseñada para entornos de redes empresariales y laboratorios de simulación.
 
 <img width="1106" height="845" alt="imagen" src="https://github.com/user-attachments/assets/55efda2d-c85f-49d0-9c59-3b3253d02ba6" />
 
 
 ## 🚀 Características Principales
+* **Backup automático de running-config**
+* **Soporte multi-dispositivo**
+* **Conexión SSH segura**
 * **Pre-validación Inteligente:** Antes de conectar, el script verifica la validez de la IP, realiza un ping ICMP y comprueba la disponibilidad del puerto TCP 22 (SSH) para evitar esperas innecesarias por timeouts.
 * **Interfaz Multitarea:** Implementa hilos (`threading`) para asegurar que la interfaz gráfica no se bloquee durante el proceso de respaldo masivo.
 * **Gestión de Lotes:** Soporte para agregar dispositivos manualmente o mediante la importación de archivos de texto con listas de IPs.
 * **Log en Tiempo Real:** Consola integrada con códigos de colores para monitorear el estado de cada conexión y posibles errores de autenticación o red.
 * **Nomenclatura Automática:** Los archivos se guardan automáticamente con el formato `Hostname_IP_Fecha_Hora.txt`.
+* **Preparado para entornos de laboratorio y producción**
 
 ## 🛠️ Requisitos Técnicos
 * **Python 3.10+**
@@ -44,14 +48,6 @@ Esta herramienta automatiza la recolección de archivos de configuración (`runn
 
 4. Selecciona la carpeta de destino y presiona "Iniciar Respaldos".
 
-
-📋 Compatibilidad Probada
-
-La herramienta ha sido diseñada pensando en la compatibilidad de equipos Cisco Catalyst, incluyendo las series:
-
-    Catalyst 2960 / 3560 / 3750
-
-    Catalyst 9200 / 9300
 
 🤝 Contribuciones
 
