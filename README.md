@@ -62,4 +62,4 @@ Alberto Arellano A.
 Cisco Certified Instructor (CCNA/CCNP/Automation/Network Security).
 Especialista en Networking, Automatización con Python/Ansible y Redes MPLS.
 
-Nota: Esta herramienta se proporciona "tal cual" para fines educativos y administrativos. Siempre verifica el acceso SSH en tus dispositivos.
+Nota: Esta herramienta se proporciona para fines educativos y administrativos. Siempre verifica el acceso SSH en tus dispositivos.
