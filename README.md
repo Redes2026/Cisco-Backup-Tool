@@ -13,10 +13,10 @@ Herramienta gráfica profesional desarrollada en Python para la automatización 
 ## 📋 Requisitos
 * Python 3.10 o superior.
 * Librería **Netmiko** para la gestión de conexiones SSH.
-* Librería **PySNMP** (opcional para el módulo de monitoreo).
+* Librería **tkinter** para el GUI.
 
 ## 🔧 Instalación
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/TU_USUARIO/cisco-switch-backup-tool.git](https://github.com/TU_USUARIO/cisco-switch-backup-tool.git)
+   git clone [https://github.com/Redes2026/cisco-switch-backup-tool.git](https://github.com/TU_USUARIO/cisco-switch-backup-tool.git)
 
