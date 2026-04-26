@@ -1,11 +1,11 @@
-# Cisco Switch Backup Tool v1.2
+# Cisco Switch Backup Tool v1.1
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 Esta herramienta automatiza la recolección de archivos de configuración (`running-config`) de switches Cisco Catalyst, proporcionando una interfaz gráfica intuitiva y robusta para administradores de red.
-<img width="1106" height="845" alt="imagen" src="https://github.com/user-attachments/assets/55efda2d-c85f-49d0-9c59-3b3253d02ba6" />
 
+<img width="1106" height="845" alt="imagen" src="https://github.com/user-attachments/assets/55efda2d-c85f-49d0-9c59-3b3253d02ba6" />
 
 
 ## 🚀 Características Principales
@@ -31,10 +31,6 @@ Esta herramienta automatiza la recolección de archivos de configuración (`runn
     ```bash
     pip install netmiko
     pip install tkinter
-
-3. Ejecuta la aplicación:
-    ```bash
-    python3 cisco_backup_toolv1.1.py
 
 🛠️ Uso
 
