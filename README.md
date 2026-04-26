@@ -22,3 +22,32 @@ Esta herramienta automatiza la recolección de archivos de configuración (`runn
 1. Clona este repositorio:
    ```bash
    git clone [https://github.com/Redes2026/Cisco-Backup-Tool.git](https://github.com/Redes2026/Cisco-Backup-Tool.git)
+
+2. Instala las dependencias:
+    ```bash
+    pip install netmiko
+    pip install tkinter
+
+3. Ejecuta la aplicación:
+    ```bash
+    python3 cisco_backup_toolv1.1.py
+
+📋 Compatibilidad Probada
+
+La herramienta ha sido diseñada pensando en la estabilidad de equipos Cisco Catalyst, incluyendo las series:
+
+    Catalyst 2960 / 3560 / 3750
+
+    Catalyst 9200 / 9300
+
+🤝 Contribuciones
+
+Las sugerencias para mejorar el manejo de errores o añadir soporte para otros fabricantes son bienvenidas. Por favor, abre un "Issue" o envía un "Pull Request".
+📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.
+
+Desarrollado por:
+Alberto Arellano A.
+Ingeniero en Electrónica y Computación | Magister en Informática Aplicada
+Cisco Certified Instructor
