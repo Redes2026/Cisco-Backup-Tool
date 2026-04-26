@@ -4,6 +4,9 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 Esta herramienta automatiza la recolección de archivos de configuración (`running-config`) de switches Cisco Catalyst, proporcionando una interfaz gráfica intuitiva y robusta para administradores de red.
+<img width="1106" height="845" alt="imagen" src="https://github.com/user-attachments/assets/55efda2d-c85f-49d0-9c59-3b3253d02ba6" />
+
+
 
 ## 🚀 Características Principales
 * **Pre-validación Inteligente:** Antes de conectar, el script verifica la validez de la IP, realiza un ping ICMP y comprueba la disponibilidad del puerto TCP 22 (SSH) para evitar esperas innecesarias por timeouts.
@@ -22,7 +25,7 @@ Esta herramienta automatiza la recolección de archivos de configuración (`runn
 
 1. Clona este repositorio:
    ```bash
-   git clone [https://github.com/Redes2026/Cisco-Backup-Tool.git](https://github.com/Redes2026/Cisco-Backup-Tool.git)
+   git clone https://github.com/Redes2026/Cisco-Backup-Tool.git
 
 2. Instala las dependencias:
     ```bash
