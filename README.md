@@ -14,7 +14,8 @@ Esta herramienta automatiza la recolección de archivos de configuración (`runn
 
 ## 🛠️ Requisitos Técnicos
 * **Python 3.10+**
-* **Bibliotecas:** * `netmiko` (Manejo de SSH)
+* **Bibliotecas:**
+  * `netmiko` (Manejo de SSH)
   * `tkinter` (Interfaz gráfica)
 
 ## 🔧 Instalación y Configuración
@@ -32,9 +33,22 @@ Esta herramienta automatiza la recolección de archivos de configuración (`runn
     ```bash
     python3 cisco_backup_toolv1.1.py
 
+🛠️ Uso
+
+ 1. Ejecuta el script principal:
+    ```bash
+    python3 cisco_backup_toolv1.1.py
+
+2. Ingresa tus credenciales SSH (Usuario, Password y Enable Password).
+
+3. Agrega las IPs de tus switches o importa un archivo de texto.
+
+4. Selecciona la carpeta de destino y presiona "Iniciar Respaldos".
+
+
 📋 Compatibilidad Probada
 
-La herramienta ha sido diseñada pensando en la estabilidad de equipos Cisco Catalyst, incluyendo las series:
+La herramienta ha sido diseñada pensando en la compatibilidad de equipos Cisco Catalyst, incluyendo las series:
 
     Catalyst 2960 / 3560 / 3750
 
@@ -47,7 +61,9 @@ Las sugerencias para mejorar el manejo de errores o añadir soporte para otros f
 
 Este proyecto está bajo la Licencia MIT.
 
-Desarrollado por:
+👤 Autor
+
 Alberto Arellano A.
-Ingeniero en Electrónica y Computación | Magister en Informática Aplicada
-Cisco Certified Instructor
+Cisco Certified Instructor (CCNA/CCNP/Automation/Network Security).
+Especialista en Networking, Automatización con Python/Ansible y Redes MPLS.
+Nota: Esta herramienta se proporciona "tal cual" para fines educativos y administrativos. Siempre verifica el acceso SSH en tus dispositivos.
