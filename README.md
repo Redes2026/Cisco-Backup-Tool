@@ -42,7 +42,7 @@ Herramienta de automatización para respaldo de configuraciones en dispositivos 
 
  1. Ejecuta el script principal:
     ```bash
-    python3 cisco_backup_toolv1.1.py
+    python3 cisco_backup_toolv1.2.py
 
 2. Ingresa tus credenciales SSH (Usuario, Password y Enable Password).
 
