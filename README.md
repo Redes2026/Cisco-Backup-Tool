@@ -24,6 +24,7 @@ Herramienta de automatización para respaldo de configuraciones en dispositivos 
 * **Bibliotecas:**
   * `netmiko` (Manejo de SSH)
   * `tkinter` (Interfaz gráfica)
+  * `scrapli` (Mejora Conexión)
 
 ## 🔧 Instalación y Configuración
 
@@ -35,6 +36,7 @@ Herramienta de automatización para respaldo de configuraciones en dispositivos 
     ```bash
     pip install netmiko
     pip install tkinter
+    pip install scrapli scrapli-community
 
 🛠️ Uso
 
